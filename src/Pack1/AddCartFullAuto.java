@@ -31,7 +31,7 @@ public class AddCartFullAuto {
 		WebDriverWait waitObj = new WebDriverWait(driver,5);
 		//waiting 5 seconds for the GreenCart logo to appear which will show that it has landed in the home page
 		waitObj.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='brand greenLogo']")));
-		
+		System.out.println("Git Check");
 		
 		
 		
