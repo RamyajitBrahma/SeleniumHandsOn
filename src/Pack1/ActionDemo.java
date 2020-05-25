@@ -23,6 +23,7 @@ public class ActionDemo {
 		a.moveToElement(searchbox).click().keyDown(Keys.SHIFT).sendKeys("Hello").doubleClick().build().perform();
 		//a.contextClick(searchbox);
 		a.contextClick(accntlist).build().perform();
+		System.out.println("Git check");
 		
 		
 
